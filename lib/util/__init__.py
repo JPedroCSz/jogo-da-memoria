@@ -90,13 +90,4 @@ def mostraJogo():
         for coluna in range(0, 4):
             print(matrizJogo[linha][coluna], end=f"{cores['roxo']} | {cores['fechaCor']}")
         print()
-
-#função temporaria para testes
-def revelaJogo():
-    print(f"{'c0  c1  c2  c3':>19}")
-    for linha in range(0, 4):
-        print(f"l{linha}", end=" | ")
-        for coluna in range(0, 4):
-            print(jogo[linha][coluna], end=" | ")
-        print()
         
